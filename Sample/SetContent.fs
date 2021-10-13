@@ -1,4 +1,5 @@
 ﻿namespace Statiq.Giraffe
+open System.Threading.Tasks
 open Statiq.Common
 open Statiq.Web
 
