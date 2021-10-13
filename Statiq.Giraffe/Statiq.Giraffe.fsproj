@@ -6,11 +6,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Program.fs" />
+      <PackageReference Include="Giraffe.ViewEngine" Version="1.4.0" />
+      <PackageReference Include="Statiq.Common" Version="1.0.0-beta.48" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Statiq.Common" Version="1.0.0-beta.48" />
+      <Compile Include="RenderTemplate.fs" />
     </ItemGroup>
 
 </Project>
