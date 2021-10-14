@@ -8,6 +8,7 @@
     <ItemGroup>
       <PackageReference Include="Giraffe.ViewEngine" Version="1.4.0" />
       <PackageReference Include="Statiq.Common" Version="1.0.0-beta.48" />
+      <PackageReference Include="TaskBuilder.fs" Version="2.1.0" />
     </ItemGroup>
 
     <ItemGroup>

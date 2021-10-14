@@ -7,9 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="SetContent.fs" />
+        <None Include="input\index.html" />
+        <Compile Include="Layout.fs" />
+        <Compile Include="Archive.fs" />
         <Compile Include="Program.fs" />
-        <Compile Include="WrapFragment.fs" />
     </ItemGroup>
 
     <ItemGroup>
@@ -19,6 +20,13 @@
     <ItemGroup>
       <PackageReference Include="Statiq.Web" Version="1.0.0-beta.33" />
       <PackageReference Include="TaskBuilder.fs" Version="2.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="node\postcss.config.js" />
+      <None Include="node\_tailwind.less">
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
