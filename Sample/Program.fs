@@ -1,16 +1,13 @@
  open Statiq.App
- open Statiq.Common
- open Statiq.Core
+ open Statiq.Common 
  open Statiq.Giraffe
- open Statiq.Giraffe.Sample
  open Giraffe.ViewEngine
  open Statiq.Giraffe.Sample.Template
  open Statiq.Markdown
  open Statiq.Web
  
  let mainView =
-     fun (doc: IDocument, ctx: IExecutionContext) ->
-         let children = doc.GetChildren()
+     fun (doc: IDocument, ctx: IExecutionContext) ->         
          let content =
              doc.GetContentTextReader().ReadToEnd()
              |> rawText         

@@ -4,6 +4,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Statiq.Giraffe", "Statiq.Gi
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sample", "Sample\Sample.fsproj", "{ECA7AAEF-8D46-4C26-BF01-E218A8675D0F}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Statiq.Web.MetaGenerator", "Statiq.Web.MetaGenerator\Statiq.Web.MetaGenerator.fsproj", "{F9B5B29E-7AE1-42E6-8560-0144A438A615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{ECA7AAEF-8D46-4C26-BF01-E218A8675D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA7AAEF-8D46-4C26-BF01-E218A8675D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA7AAEF-8D46-4C26-BF01-E218A8675D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B5B29E-7AE1-42E6-8560-0144A438A615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B5B29E-7AE1-42E6-8560-0144A438A615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B5B29E-7AE1-42E6-8560-0144A438A615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B5B29E-7AE1-42E6-8560-0144A438A615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

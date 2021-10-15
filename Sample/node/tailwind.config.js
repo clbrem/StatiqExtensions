@@ -1,9 +1,10 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content: [
         '../**/input/**/*.html',
         '../*.fs',
+        '../**/input/*.yaml'
     ]
   },
   darkMode: false, // or 'media' or 'class'

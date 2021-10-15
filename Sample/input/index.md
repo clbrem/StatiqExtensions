@@ -1,7 +1,8 @@
-﻿Title: MyPage
+﻿Title: A Statiq Blog 
+ArchiveSources: posts/*
 ---
-# Hello There
+Welcome to my blog
 
-Bonjour
+
  
  

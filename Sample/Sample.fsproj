@@ -7,7 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="input\index.html" />
+        <None Include="input\posts\_firstPost.yaml" />
+        <Folder Include="input\images" />
         <Compile Include="Layout.fs" />
         <Compile Include="Archive.fs" />
         <Compile Include="Program.fs" />
